@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "performances": "Występy",
+    "about": "O Nas",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Sztuka Flamenco Dla Świata",
+    "subtitle": "Profesjonalne tradycyjne hiszpańskie występy flamenco.",
+    "tagline": "Gdzie pasja staje się sztuką.",
+    "watchPerformances": "Zobacz Występy",
+    "requestQuote": "Zapytaj o Wycenę",
+    "traditionalMusic": "Muzyka Tradycyjna",
+    "professionalArtists": "Profesjonalni Artyści",
+    "internationalReach": "Zasięg Międzynarodowy"
+  },
+  "videos": {
+    "title": "Nasze Występy",
+    "subtitle": "Odkryj pasję i sztukę flamenco poprzez nasze spektakle",
+    "video0": {
+      "title": "Tarannà",
+      "description": "Tarannà to zespół flamenco łączący tradycję ze współczesnym brzmieniem. Jego propozycja wyróżnia się sceniczną obecnością bailaory, która interpretuje utwory używając bata de cola i szala, wnosząc wielką siłę wizualną do spektaklu. Grupa zachowuje typową formację flamenco: taniec, śpiew, gitara i cajón, włączając również bas elektryczny, co dodaje głębi rytmicznej i współczesnego niuansu do całości."
+    },
+    "video1": {
+      "title": "Sarsalé Sextet",
+      "description": "Dynamiczny spektakl flamenco z sześcioosobowym zespołem, łączącym dwóch tancerzy, dwóch śpiewaków, gitarę i perkusję. Każdy gest, każdy zapateado i każda nuta przekazują siłę i emocje flamenco, otaczając publiczność intensywnym rytmem pełnym niuansów. Ten zespół osiąga równowagę między najczystszą tradycją a akcentami współczesnej świeżości, oferując artystyczne doświadczenie, gdzie pasja, technika i wrażliwość spotykają się w doskonałej harmonii."
+    },
+    "video3": {
+      "title": "Alikindoi",
+      "description": "Autentyczny spektakl flamenco z czteroosobowym zespołem, jak w tradycyjnym tablao: taniec, śpiew, gitara i perkusja, łączące technikę, rytm i emocje w każdym takcie. Bliskość między wykonawcami a publicznością tworzy intymną i pełną życia atmosferę, gdzie każdy zapateado, każdy krzyk i każde brzdąkanie dialogują z naturalnością i siłą. Propozycja, która szanuje istotę najczystszego flamenco, utrzymując przy życiu jego intensywność i prawdę na scenie."
+    },
+    "video2": {
+      "title": "Sarsalé",
+      "description": "Flamenco łączące siłę i duszę tradycyjnego tablao ze świeżością nowoczesnych brzmień. Nasz zespół obejmuje taniec, śpiew, gitarę, perkusję i bas, oferując unikalne doświadczenie, gdzie tradycja spotyka się z innowacją dźwiękową. Odnawiając poprzez włączenie nowoczesnych tekstur i współczesnej dynamiki. Każdy występ to sensoryczna podróż, gdzie tradycja, rytm i nowoczesność przeplatają się, tworząc unikalne przeżycie."
+    },
+    "instruments": {
+      "cante": "Śpiew",
+      "baile": "Taniec",
+      "guitarra": "Gitara",
+      "percusion": "Perkusja",
+      "bajo": "Bas",
+      "cantex2": "Śpiew x2",
+      "bailex2": "Taniec x2"
+    }
+  },
+  "about": {
+    "title": "O Nas",
+    "description": "SarauProject to kolektyw profesjonalnych artystów flamenco, którzy poświęcają się przekazywaniu esencji sztuki andaluzyjskiej na scenach całego świata. Z ponad dwudziestoletnim doświadczeniem oferujemy autentyczne spektakle łączące tradycję i innowację.",
+    "descriptionAfterName": "to starannie dobrana selekcja projektów audiowizualnych flamenco na żywo, poprzez filmy z prawdziwych występów, abyś mógł wyraźnie zobaczyć, co robimy i jak pracujemy.\n\nKażdy projekt ma własną tożsamość, format i podejście, i jest przeznaczony dla teatrów, sal koncertowych, klubów, festiwali i innych przestrzeni kulturalnych. Możesz ocenić styl, obecność sceniczną i rodzaj propozycji, która najlepiej pasuje do Twojego programu.\n\nPracujemy profesjonalnie, blisko i elastycznie, dostosowując się do każdej przestrzeni i specyficznych potrzeb każdego projektu, aby oferować każdą propozycję w najlepszych warunkach technicznych i artystycznych.",
+    "yearsExperience": "Lat Doświadczenia",
+    "internationalEvents": "Wydarzeń Międzynarodowych",
+    "professionalArtists": "Profesjonalnych Artystów",
+    "quote": "Flamenco to głos duszy, gdy słowa nie wystarczają. Emocja, która nie jest przemyślana, tylko odczuwana i oddawana."
+  },
+  "contact": {
+    "title": "Poproś o Wycenę",
+    "subtitle": "Opowiedz nam o swoim wydarzeniu, a odpowiemy jak najszybciej",
+    "fullName": "Pełne imię i nazwisko",
+    "email": "Email",
+    "eventType": "Rodzaj wydarzenia",
+    "eventTypePlaceholder": "Festiwal, ślub, wydarzenie firmowe, itp.",
+    "message": "Wiadomość",
+    "messagePlaceholder": "Opowiedz nam o swoim wydarzeniu: data, miejsce, czas trwania, liczba uczestników...",
+    "sending": "Wysyłanie...",
+    "submit": "Wyślij Zapytanie",
+    "directEmail": "Możesz też napisać do nas bezpośrednio na:",
+    "successTitle": "Wiadomość wysłana!",
+    "successMessage": "Odpowiemy jak najszybciej"
+  },
+  "footer": {
+    "description": "Profesjonalne tradycyjne hiszpańskie występy flamenco na wydarzenia międzynarodowe.",
+    "links": "Linki",
+    "contactTitle": "Kontakt"
+  },
+  "duration": {
+    "1hour": "1 godzina",
+    "1hourHalf": "1,5 godziny",
+    "2hours": "2 godziny"
+  }
+}

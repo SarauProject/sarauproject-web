@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "performances": "Előadások",
+    "about": "Rólunk",
+    "contact": "Kapcsolat"
+  },
+  "hero": {
+    "title": "Flamenco Művészet A Világnak",
+    "subtitle": "Professzionális hagyományos spanyol flamenco előadások.",
+    "tagline": "Ahol a szenvedély művészetté válik.",
+    "watchPerformances": "Előadások Megtekintése",
+    "requestQuote": "Árajánlat Kérése",
+    "traditionalMusic": "Hagyományos Zene",
+    "professionalArtists": "Profi Művészek",
+    "internationalReach": "Nemzetközi Elérés"
+  },
+  "videos": {
+    "title": "Előadásaink",
+    "subtitle": "Fedezze fel a flamenco szenvedélyét és művészetét előadásainkon keresztül",
+    "video0": {
+      "title": "Tarannà",
+      "description": "A Tarannà egy flamenco együttes, amely a hagyományt kortárs hangzással ötvözi. Javaslatuk kiemelkedik a bailaora színpadi jelenlétével, aki bata de cola-t és kendőt használva adja elő a darabokat, nagy vizuális erőt kölcsönözve az előadásnak. A csoport megtartja a tipikus flamenco felállást: tánc, ének, gitár és cajón, valamint elektromos basszusgitárt is beépítve, ami ritmikus mélységet és kortárs árnyalatot ad az együtteshez."
+    },
+    "video1": {
+      "title": "Sarsalé Sextet",
+      "description": "Pezsgő flamenco show hat tagú együttessel, két táncos, két énekes, gitár és ütős kombinációjával. Minden gesztus, minden zapateado és minden hang a flamenco erejét és érzelmét közvetíti, árnyalatokkal teli intenzív ritmusba burkolva a közönséget. Ez az együttes sikeresen egyensúlyoz a legtisztább hagyomány és a kortárs frissesség érintései között, olyan művészi élményt kínálva, ahol a szenvedély, a technika és az érzékenység tökéletes harmóniában találkozik."
+    },
+    "video3": {
+      "title": "Alikindoi",
+      "description": "Autentikus flamenco show négy művészből álló együttessel, akárcsak egy hagyományos tablaóban: tánc, ének, gitár és ütős, technikát, ritmust és érzelmet ötvözve minden ütemben. Az előadók és a közönség közötti közelség bensőséges és vibráló légkört teremt, ahol minden zapateado, minden kiáltás és minden pengetés természetességgel és erővel párbeszédet folytat. Egy javaslat, amely tiszteletben tartja a legtisztább flamenco lényegét, életben tartva annak intenzitását és igazságát a színpadon."
+    },
+    "video2": {
+      "title": "Sarsalé",
+      "description": "Flamenco, amely ötvözi a hagyományos tablao erejét és lelkét a modern hangzások frissességével. Együttesünk táncot, éneket, gitárt, ütőhangszereket és basszusgitárt tartalmaz, egyedülálló élményt nyújtva, ahol a hagyomány találkozik a hanginnovációval. Újra feltalálva modern textúrák és kortárs dinamikák beépítésével. Minden előadás egy érzékszervi utazás, ahol a hagyomány, a ritmus és a modernitás összefonódik, egyedülálló élményt teremtve."
+    },
+    "instruments": {
+      "cante": "Ének",
+      "baile": "Tánc",
+      "guitarra": "Gitár",
+      "percusion": "Ütőhangszerek",
+      "bajo": "Basszusgitár",
+      "cantex2": "Ének x2",
+      "bailex2": "Tánc x2"
+    }
+  },
+  "about": {
+    "title": "Rólunk",
+    "description": "A SarauProject professzionális flamenco művészek kollektívája, akik elkötelezettek amellett, hogy az andalúz művészet lényegét a világ színpadaira vigyék. Több mint két évtizedes tapasztalattal hiteles előadásokat kínálunk, amelyek ötvözik a hagyományt és az innovációt.",
+    "descriptionAfterName": "élő flamenco audiovizuális projektek gondosan válogatott gyűjteménye, valódi előadások videóin keresztül, hogy egyértelműen láthassa, mit csinálunk és hogyan dolgozunk.\n\nMinden projektnek saját identitása, formátuma és megközelítése van, és színházaknak, koncerttermeknek, kluboknak, fesztiváloknak és más kulturális tereknek készült. Értékelheti a stílust, a színpadi jelenlétet és az Ön programjához legjobban illő javaslat típusát.\n\nProfesszionálisan, közelről és rugalmasan dolgozunk, alkalmazkodva minden térhez és minden projekt sajátos igényeihez, hogy minden javaslatot a legjobb technikai és művészeti feltételek mellett kínáljunk.",
+    "yearsExperience": "Év Tapasztalat",
+    "internationalEvents": "Nemzetközi Esemény",
+    "professionalArtists": "Profi Művész",
+    "quote": "A flamenco a lélek hangja, amikor a szavak nem elegendőek. Egy érzelem, amit nem gondolunk, csak érzünk és átadunk."
+  },
+  "contact": {
+    "title": "Kérjen Árajánlatot",
+    "subtitle": "Meséljen az eseményéről és a lehető leghamarabb válaszolunk",
+    "fullName": "Teljes név",
+    "email": "Email",
+    "eventType": "Esemény típusa",
+    "eventTypePlaceholder": "Fesztivál, esküvő, céges rendezvény, stb.",
+    "message": "Üzenet",
+    "messagePlaceholder": "Meséljen az eseményéről: dátum, helyszín, időtartam, résztvevők száma...",
+    "sending": "Küldés...",
+    "submit": "Kérés Küldése",
+    "directEmail": "Közvetlenül is írhat nekünk:",
+    "successTitle": "Üzenet elküldve!",
+    "successMessage": "A lehető leghamarabb válaszolunk"
+  },
+  "footer": {
+    "description": "Professzionális hagyományos spanyol flamenco előadások nemzetközi eseményekre.",
+    "links": "Linkek",
+    "contactTitle": "Kapcsolat"
+  },
+  "duration": {
+    "1hour": "1 óra",
+    "1hourHalf": "1,5 óra",
+    "2hours": "2 óra"
+  }
+}

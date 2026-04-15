@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "performances": "Performances",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Flamenco Art For The World",
+    "subtitle": "Professional traditional Spanish flamenco performances.",
+    "tagline": "Where passion becomes art.",
+    "watchPerformances": "Watch Performances",
+    "requestQuote": "Request Quote",
+    "traditionalMusic": "Traditional Music",
+    "professionalArtists": "Professional Artists",
+    "internationalReach": "International Reach"
+  },
+  "videos": {
+    "title": "Our Performances",
+    "subtitle": "Discover the passion and art of flamenco through our shows",
+    "video0": {
+      "title": "Tarannà",
+      "description": "Tarannà is a flamenco ensemble that combines tradition with a contemporary sound. Their proposal stands out for the stage presence of the bailaora, who performs the pieces using bata de cola and shawl, bringing great visual power to the show. The group maintains the typical flamenco formation: dance, singing, guitar and cajón, also incorporating electric bass, which adds rhythmic depth and a contemporary nuance to the ensemble."
+    },
+    "video1": {
+      "title": "Sarsalé Sextet",
+      "description": "Vibrant flamenco show with a six-member ensemble, combining two dancers, two singers, guitar and percussion. Every gesture, every footwork and every note convey the strength and emotion of flamenco, enveloping the audience in an intense rhythm full of nuances. This ensemble achieves a balance between the purest tradition and touches of contemporary freshness, offering an artistic experience where passion, technique and sensitivity meet in perfect harmony."
+    },
+    "video3": {
+      "title": "Alikindoi",
+      "description": "Authentic flamenco show with a four-artist ensemble, just like in a traditional tablao: dance, singing, guitar and percussion, combining technique, rhythm and emotion in every beat. The closeness between performers and audience creates an intimate and vibrant atmosphere, where every footwork, every cry and every strum dialogue with naturalness and strength. A proposal that respects the essence of the purest flamenco, keeping its intensity and truth alive on stage."
+    },
+    "video2": {
+      "title": "Sarsalé",
+      "description": "Flamenco that combines the strength and soul of traditional tablao with the freshness of modern sounds. Our ensemble includes dance, singing, guitar, percussion and bass, offering a unique experience where tradition meets sonic innovation. Reinventing by incorporating modern textures and contemporary dynamics. Each performance is a sensory journey where tradition, rhythm and modernity intertwine, creating a unique experience."
+    },
+    "instruments": {
+      "cante": "Singing",
+      "baile": "Dance",
+      "guitarra": "Guitar",
+      "percusion": "Percussion",
+      "bajo": "Bass",
+      "cantex2": "Singing x2",
+      "bailex2": "Dance x2"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "SarauProject is a collective of professional flamenco artists dedicated to bringing the essence of Andalusian art to stages around the world. With over two decades of experience, we offer authentic shows that combine tradition and innovation.",
+    "descriptionAfterName": "is a curated selection of live flamenco audiovisual projects, through videos of real performances, so you can clearly see what we do and how we work.\n\nEach project has its own identity, format and approach, and is designed for theaters, concert halls, clubs, festivals and other cultural spaces. You can assess the style, stage presence and type of proposal that best fits your programming.\n\nWe work professionally, closely and flexibly, adapting to each space and the specific needs of each project to offer each proposal in the best technical and artistic conditions.",
+    "yearsExperience": "Years of Experience",
+    "internationalEvents": "International Events",
+    "professionalArtists": "Professional Artists",
+    "quote": "Flamenco is the voice of the soul when words are not enough. An emotion that is not thought, only felt and surrendered."
+  },
+  "contact": {
+    "title": "Request Your Quote",
+    "subtitle": "Tell us about your event and we'll respond as soon as possible",
+    "fullName": "Full name",
+    "email": "Email",
+    "eventType": "Event type",
+    "eventTypePlaceholder": "Festival, wedding, corporate event, etc.",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your event: date, location, duration, number of attendees...",
+    "sending": "Sending...",
+    "submit": "Send Request",
+    "directEmail": "You can also write to us directly at:",
+    "successTitle": "Message sent!",
+    "successMessage": "We'll respond as soon as possible"
+  },
+  "footer": {
+    "description": "Professional traditional Spanish flamenco performances for international events.",
+    "links": "Links",
+    "contactTitle": "Contact"
+  },
+  "duration": {
+    "1hour": "1 hour",
+    "1hourHalf": "1 hour and a half",
+    "2hours": "2 hours"
+  }
+}

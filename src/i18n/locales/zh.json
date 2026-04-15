@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "performances": "演出",
+    "about": "关于我们",
+    "contact": "联系"
+  },
+  "hero": {
+    "title": "弗拉门戈艺术走向世界",
+    "subtitle": "专业的西班牙传统弗拉门戈演出。",
+    "tagline": "激情化为艺术之地。",
+    "watchPerformances": "观看演出",
+    "requestQuote": "获取报价",
+    "traditionalMusic": "传统音乐",
+    "professionalArtists": "专业艺术家",
+    "internationalReach": "国际影响力"
+  },
+  "videos": {
+    "title": "我们的演出",
+    "subtitle": "通过我们的表演发现弗拉门戈的激情与艺术",
+    "video0": {
+      "title": "Tarannà",
+      "description": "Tarannà是一个将传统与现代音色相结合的弗拉门戈乐团。他们的表演以bailaora的舞台魅力为特色，她使用bata de cola和披肩演绎作品，为表演带来强大的视觉冲击力。乐团保持了典型的弗拉门戈阵容：舞蹈、歌唱、吉他和木箱鼓，同时加入电贝司，为整体增添了节奏深度和现代气息。"
+    },
+    "video1": {
+      "title": "Sarsalé Sextet",
+      "description": "充满活力的弗拉门戈表演，由六人乐团组成，融合两位舞者、两位歌手、吉他和打击乐。每一个手势、每一个zapateado和每一个音符都传达着弗拉门戈的力量和情感，将观众包裹在充满细微差别的强烈节奏中。这个乐团成功地在最纯粹的传统与当代新鲜感之间取得平衡，提供一种激情、技巧和敏感性在完美和谐中相遇的艺术体验。"
+    },
+    "video3": {
+      "title": "Alikindoi",
+      "description": "正宗的弗拉门戈表演，由四位艺术家组成的乐团，如同传统的塔布拉奥：舞蹈、歌唱、吉他和打击乐，在每个节拍中融合技巧、节奏和情感。表演者与观众之间的亲密感创造了一种私密而充满活力的氛围，每一个zapateado、每一声呼喊和每一次拨弦都以自然和力量进行对话。一个尊重最纯粹弗拉门戈精髓的提案，在舞台上保持其强度和真实性。"
+    },
+    "video2": {
+      "title": "Sarsalé",
+      "description": "将传统塔布拉奥的力量和灵魂与现代声音的新鲜感相结合的弗拉门戈。我们的乐团包括舞蹈、歌唱、吉他、打击乐和贝斯，提供传统与声音创新相遇的独特体验。通过融入现代质感和当代动态来重新发明。每场演出都是一次感官之旅，传统、节奏和现代交织在一起，创造独特的体验。"
+    },
+    "instruments": {
+      "cante": "演唱",
+      "baile": "舞蹈",
+      "guitarra": "吉他",
+      "percusion": "打击乐",
+      "bajo": "贝斯",
+      "cantex2": "演唱 x2",
+      "bailex2": "舞蹈 x2"
+    }
+  },
+  "about": {
+    "title": "关于我们",
+    "description": "SarauProject是一个专业弗拉门戈艺术家团体，致力于将安达卢西亚艺术的精髓带到世界各地的舞台。凭借超过二十年的经验，我们提供融合传统与创新的真正表演。",
+    "descriptionAfterName": "是精心挑选的现场弗拉门戈视听项目集合，通过真实表演的视频，让您可以清楚地看到我们做什么以及我们如何工作。\n\n每个项目都有其独特的身份、格式和方法，专为剧院、音乐厅、俱乐部、节日和其他文化空间设计。您可以评估风格、舞台表现力以及最适合您节目的提案类型。\n\n我们以专业、亲近和灵活的方式工作，适应每个空间和每个项目的具体需求，以在最佳技术和艺术条件下提供每个提案。",
+    "yearsExperience": "年经验",
+    "internationalEvents": "国际活动",
+    "professionalArtists": "专业艺术家",
+    "quote": "弗拉门戈是当言语不足时灵魂的声音。一种不用思考的情感，只需感受和奉献。"
+  },
+  "contact": {
+    "title": "获取您的报价",
+    "subtitle": "告诉我们您的活动，我们会尽快回复",
+    "fullName": "全名",
+    "email": "电子邮件",
+    "eventType": "活动类型",
+    "eventTypePlaceholder": "节日、婚礼、企业活动等",
+    "message": "留言",
+    "messagePlaceholder": "告诉我们您的活动：日期、地点、时长、参与人数...",
+    "sending": "发送中...",
+    "submit": "发送请求",
+    "directEmail": "您也可以直接写信给我们：",
+    "successTitle": "消息已发送！",
+    "successMessage": "我们会尽快回复"
+  },
+  "footer": {
+    "description": "为国际活动提供专业的西班牙传统弗拉门戈演出。",
+    "links": "链接",
+    "contactTitle": "联系"
+  },
+  "duration": {
+    "1hour": "1小时",
+    "1hourHalf": "1.5小时",
+    "2hours": "2小时"
+  }
+}

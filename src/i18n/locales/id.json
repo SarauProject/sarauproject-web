@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "performances": "Pertunjukan",
+    "about": "Tentang Kami",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "title": "Seni Flamenco Untuk Dunia",
+    "subtitle": "Pertunjukan flamenco tradisional Spanyol profesional.",
+    "tagline": "Di mana gairah menjadi seni.",
+    "watchPerformances": "Lihat Pertunjukan",
+    "requestQuote": "Minta Penawaran",
+    "traditionalMusic": "Musik Tradisional",
+    "professionalArtists": "Seniman Profesional",
+    "internationalReach": "Jangkauan Internasional"
+  },
+  "videos": {
+    "title": "Pertunjukan Kami",
+    "subtitle": "Temukan gairah dan seni flamenco melalui pertunjukan kami",
+    "video0": {
+      "title": "Tarannà",
+      "description": "Tarannà adalah ansambel flamenco yang menggabungkan tradisi dengan suara kontemporer. Proposal mereka menonjol karena kehadiran panggung bailaora, yang menginterpretasikan karya menggunakan bata de cola dan selendang, memberikan kekuatan visual yang besar pada pertunjukan. Grup ini mempertahankan formasi flamenco khas: tari, nyanyian, gitar dan cajón, serta menggabungkan bass elektrik, yang menambahkan kedalaman ritmis dan nuansa kontemporer pada ansambel."
+    },
+    "video1": {
+      "title": "Sarsalé Sextet",
+      "description": "Pertunjukan flamenco yang semarak dengan ensemble enam anggota, menggabungkan dua penari, dua penyanyi, gitar dan perkusi. Setiap gerakan, setiap zapateado dan setiap nada menyampaikan kekuatan dan emosi flamenco, menyelimuti penonton dalam ritme intens yang penuh nuansa. Ensemble ini berhasil menyeimbangkan tradisi paling murni dengan sentuhan kesegaran kontemporer, menawarkan pengalaman artistik di mana gairah, teknik dan kepekaan bertemu dalam harmoni sempurna."
+    },
+    "video3": {
+      "title": "Alikindoi",
+      "description": "Pertunjukan flamenco otentik dengan ensemble empat seniman, seperti di tablao tradisional: tari, nyanyian, gitar dan perkusi, menggabungkan teknik, ritme dan emosi di setiap ketukan. Kedekatan antara pemain dan penonton menciptakan suasana yang intim dan bersemangat, di mana setiap zapateado, setiap jeritan dan setiap petikan berdialog dengan kealamian dan kekuatan. Sebuah proposal yang menghormati esensi flamenco paling murni, menjaga intensitas dan kebenarannya tetap hidup di atas panggung."
+    },
+    "video2": {
+      "title": "Sarsalé",
+      "description": "Flamenco yang menggabungkan kekuatan dan jiwa tablao tradisional dengan kesegaran suara modern. Ensemble kami mencakup tari, nyanyian, gitar, perkusi dan bass, menawarkan pengalaman unik di mana tradisi bertemu dengan inovasi sonik. Menemukan kembali dengan menggabungkan tekstur modern dan dinamika kontemporer. Setiap pertunjukan adalah perjalanan sensoris di mana tradisi, ritme dan modernitas terjalin, menciptakan pengalaman yang unik."
+    },
+    "instruments": {
+      "cante": "Nyanyian",
+      "baile": "Tari",
+      "guitarra": "Gitar",
+      "percusion": "Perkusi",
+      "bajo": "Bass",
+      "cantex2": "Nyanyian x2",
+      "bailex2": "Tari x2"
+    }
+  },
+  "about": {
+    "title": "Tentang Kami",
+    "description": "SarauProject adalah kolektif seniman flamenco profesional yang berdedikasi untuk membawa esensi seni Andalusia ke panggung di seluruh dunia. Dengan pengalaman lebih dari dua dekade, kami menawarkan pertunjukan autentik yang menggabungkan tradisi dan inovasi.",
+    "descriptionAfterName": "adalah seleksi proyek audiovisual flamenco langsung yang dikurasi dengan cermat, melalui video pertunjukan nyata, sehingga Anda dapat melihat dengan jelas apa yang kami lakukan dan bagaimana kami bekerja.\n\nSetiap proyek memiliki identitas, format, dan pendekatannya sendiri, dan dirancang untuk teater, ruang konser, klub, festival, dan ruang budaya lainnya. Anda dapat menilai gaya, kehadiran panggung, dan jenis proposal yang paling sesuai dengan program Anda.\n\nKami bekerja secara profesional, dekat, dan fleksibel, beradaptasi dengan setiap ruang dan kebutuhan spesifik setiap proyek untuk menawarkan setiap proposal dalam kondisi teknis dan artistik terbaik.",
+    "yearsExperience": "Tahun Pengalaman",
+    "internationalEvents": "Acara Internasional",
+    "professionalArtists": "Seniman Profesional",
+    "quote": "Flamenco adalah suara jiwa ketika kata-kata tidak cukup. Emosi yang tidak dipikirkan, hanya dirasakan dan diserahkan."
+  },
+  "contact": {
+    "title": "Minta Penawaran Anda",
+    "subtitle": "Ceritakan tentang acara Anda dan kami akan merespons sesegera mungkin",
+    "fullName": "Nama lengkap",
+    "email": "Email",
+    "eventType": "Jenis acara",
+    "eventTypePlaceholder": "Festival, pernikahan, acara perusahaan, dll.",
+    "message": "Pesan",
+    "messagePlaceholder": "Ceritakan tentang acara Anda: tanggal, lokasi, durasi, jumlah peserta...",
+    "sending": "Mengirim...",
+    "submit": "Kirim Permintaan",
+    "directEmail": "Anda juga bisa menulis langsung ke:",
+    "successTitle": "Pesan terkirim!",
+    "successMessage": "Kami akan merespons sesegera mungkin"
+  },
+  "footer": {
+    "description": "Pertunjukan flamenco tradisional Spanyol profesional untuk acara internasional.",
+    "links": "Tautan",
+    "contactTitle": "Kontak"
+  },
+  "duration": {
+    "1hour": "1 jam",
+    "1hourHalf": "1,5 jam",
+    "2hours": "2 jam"
+  }
+}

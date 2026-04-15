@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "performances": "Gösteriler",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "Dünya İçin Flamenko Sanatı",
+    "subtitle": "Profesyonel geleneksel İspanyol flamenko gösterileri.",
+    "tagline": "Tutkunun sanata dönüştüğü yer.",
+    "watchPerformances": "Gösterileri İzle",
+    "requestQuote": "Teklif İste",
+    "traditionalMusic": "Geleneksel Müzik",
+    "professionalArtists": "Profesyonel Sanatçılar",
+    "internationalReach": "Uluslararası Erişim"
+  },
+  "videos": {
+    "title": "Gösterilerimiz",
+    "subtitle": "Gösterilerimiz aracılığıyla flamenko tutkusunu ve sanatını keşfedin",
+    "video0": {
+      "title": "Tarannà",
+      "description": "Tarannà, geleneği güncel bir ses anlayışıyla birleştiren bir flamenko topluluğudur. Önerisi, bata de cola ve şal kullanarak parçaları yorumlayan bailaora'nın sahne varlığıyla öne çıkar ve gösteriye büyük görsel güç katar. Grup, tipik flamenko formasyonunu korur: dans, şarkı, gitar ve cajón, ayrıca elektrik bas da dahil ederek topluluga ritmik derinlik ve çağdaş bir nüans ekler."
+    },
+    "video1": {
+      "title": "Sarsalé Sextet",
+      "description": "Canlı flamenko gösterisi, altı kişilik bir toplulukla, iki dansçı, iki şarkıcı, gitar ve perküsyon kombinasyonu. Her jest, her zapateado ve her nota flamenko'nun gücünü ve duygusunu aktarır, izleyiciyi nüanslarla dolu yoğun bir ritme sarar. Bu topluluk, en saf gelenek ile çağdaş tazelik dokunuşları arasında denge kurmayı başarır, tutku, teknik ve duyarlılığın mükemmel uyum içinde buluştuğu sanatsal bir deneyim sunar."
+    },
+    "video3": {
+      "title": "Alikindoi",
+      "description": "Geleneksel bir tablao gibi dört sanatçılı otantik flamenko gösterisi: dans, şarkı, gitar ve perküsyon, her vuruşta teknik, ritim ve duyguyu birleştiriyor. Yorumcular ve izleyiciler arasındaki yakınlık, her zapateado, her feryat ve her tıngırtının doğallık ve güçle diyalog kurduğu samimi ve canlı bir atmosfer yaratır. En saf flamenko'nun özüne saygı duyan, sahne üzerinde yoğunluğunu ve gerçekliğini canlı tutan bir öneri."
+    },
+    "video2": {
+      "title": "Sarsalé",
+      "description": "Geleneksel tablao'nun gücünü ve ruhunu modern seslerin tazeliğiyle birleştiren flamenko. Topluluğumuz dans, şarkı, gitar, perküsyon ve bas içerir, geleneğin ses inovasyonuyla buluştuğu benzersiz bir deneyim sunar. Modern dokular ve çağdaş dinamikler ekleyerek yeniden icat ediyor. Her performans, gelenek, ritim ve modernliğin iç içe geçtiği, benzersiz bir deneyim yaratan duyusal bir yolculuktur."
+    },
+    "instruments": {
+      "cante": "Şarkı",
+      "baile": "Dans",
+      "guitarra": "Gitar",
+      "percusion": "Perküsyon",
+      "bajo": "Bas",
+      "cantex2": "Şarkı x2",
+      "bailex2": "Dans x2"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "description": "SarauProject, Endülüs sanatının özünü dünya sahnelerine taşımaya adanmış profesyonel flamenko sanatçılarından oluşan bir topluluktur. Yirmi yılı aşkın deneyimimizle, gelenek ve yeniliği birleştiren otantik gösteriler sunuyoruz.",
+    "descriptionAfterName": "gerçek performansların videolarını içeren canlı flamenko görsel-işitsel projelerinin özenle seçilmiş bir koleksiyonudur, böylece ne yaptığımızı ve nasıl çalıştığımızı net bir şekilde görebilirsiniz.\n\nHer projenin kendine özgü bir kimliği, formatı ve yaklaşımı vardır ve tiyatrolar, konser salonları, kulüpler, festivaller ve diğer kültürel mekanlar için tasarlanmıştır. Programınıza en uygun stili, sahne varlığını ve teklif türünü değerlendirebilirsiniz.\n\nProfesyonel, yakın ve esnek bir şekilde çalışıyor, her mekana ve her projenin özel ihtiyaçlarına uyum sağlayarak her teklifi en iyi teknik ve sanatsal koşullarda sunuyoruz.",
+    "yearsExperience": "Yıllık Deneyim",
+    "internationalEvents": "Uluslararası Etkinlik",
+    "professionalArtists": "Profesyonel Sanatçı",
+    "quote": "Flamenko, kelimeler yetmediğinde ruhun sesidir. Düşünülmeyen, sadece hissedilen ve teslim edilen bir duygu."
+  },
+  "contact": {
+    "title": "Teklifinizi İsteyin",
+    "subtitle": "Etkinliğinizi bize anlatın, en kısa sürede yanıt vereceğiz",
+    "fullName": "Tam ad",
+    "email": "Email",
+    "eventType": "Etkinlik türü",
+    "eventTypePlaceholder": "Festival, düğün, kurumsal etkinlik, vb.",
+    "message": "Mesaj",
+    "messagePlaceholder": "Etkinliğinizi bize anlatın: tarih, yer, süre, katılımcı sayısı...",
+    "sending": "Gönderiliyor...",
+    "submit": "Talep Gönder",
+    "directEmail": "Bize doğrudan da yazabilirsiniz:",
+    "successTitle": "Mesaj gönderildi!",
+    "successMessage": "En kısa sürede yanıt vereceğiz"
+  },
+  "footer": {
+    "description": "Uluslararası etkinlikler için profesyonel geleneksel İspanyol flamenko gösterileri.",
+    "links": "Bağlantılar",
+    "contactTitle": "İletişim"
+  },
+  "duration": {
+    "1hour": "1 saat",
+    "1hourHalf": "1,5 saat",
+    "2hours": "2 saat"
+  }
+}

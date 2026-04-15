@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "performances": "Actuaciones",
+    "about": "Sobre Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Arte Flamenco Para el Mundo",
+    "subtitle": "Espectáculos profesionales de flamenco tradicional español.",
+    "tagline": "Donde la pasión se convierte en arte.",
+    "watchPerformances": "Ver Actuaciones",
+    "requestQuote": "Solicitar Presupuesto",
+    "traditionalMusic": "Música Tradicional",
+    "professionalArtists": "Artistas Profesionales",
+    "internationalReach": "Alcance Internacional"
+  },
+  "videos": {
+    "title": "Nuestras Actuaciones",
+    "subtitle": "Descubre la pasión y el arte del flamenco a través de nuestros espectáculos",
+    "video0": {
+      "title": "Tarannà",
+      "description": "Tarannà es un cuadro flamenco que combina tradición y una sonoridad actual. Su propuesta destaca por la presencia escénica de la bailaora, que interpreta las piezas utilizando bata de cola y mantón, aportando una gran fuerza visual al espectáculo. El grupo mantiene la formación típica del flamenco, baile, cante, guitarra y cajón, incorporando además bajo eléctrico, lo que añade profundidad rítmica y un matiz contemporáneo al conjunto."
+    },
+    "video1": {
+      "title": "Sarsalé Sextet",
+      "description": "Espectáculo flamenco vibrante con un cuadro de seis componentes, combinando dos bailes, dos cantes, guitarra y percusión. Cada gesto, cada golpe y cada nota transmiten la fuerza y la emoción del flamenco, envolviendo al público en un ritmo intenso y lleno de matices. Este cuadro logra equilibrar la tradición más pura con toques de frescura contemporánea, ofreciendo una experiencia artística donde la pasión, la técnica y la sensibilidad se encuentran en perfecta armonía."
+    },
+    "video3": {
+      "title": "Alikindoi",
+      "description": "Espectáculo flamenco auténtico con un cuadro de cuatro artistas, tal como en un tablao tradicional: baile, cante, guitarra y percusión, combinando técnica, ritmo y emoción en cada compás. La cercanía entre intérpretes y público crea una atmósfera íntima y vibrante, donde cada zapateado, cada quejío y cada rasgueo dialogan con naturalidad y fuerza. Una propuesta que respeta la esencia del flamenco más puro, manteniendo viva su intensidad y su verdad sobre el escenario."
+    },
+    "video2": {
+      "title": "Sarsalé",
+      "description": "Flamenco que combina la fuerza y el alma del tablao tradicional con la frescura de sonidos modernos. Nuestro cuadro incluye baile, cante, guitarra, percusión y bajo, ofreciendo una experiencia única donde la tradición se encuentra con la innovación sonora. Reinventa incorporando texturas modernas y dinámicas contemporáneas. Cada actuación es un viaje sensorial donde tradición, ritmo y modernidad se entrelazan, creando una experiencia única."
+    },
+    "instruments": {
+      "cante": "Cante",
+      "baile": "Baile",
+      "guitarra": "Guitarra",
+      "percusion": "Percusión",
+      "bajo": "Bajo",
+      "cantex2": "Cante x2",
+      "bailex2": "Baile x2"
+    }
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "description": "SarauProject es una selección cuidada de proyectos audiovisuales de flamenco en directo, a través de vídeos de actuaciones reales, para poder ver claramente qué hacemos y cómo trabajamos.\n\nCada proyecto tiene su propia identidad, formato y enfoque, y está pensado para teatros, salas de conciertos, clubes, festivales y otros espacios culturales. Puedes valorar el estilo, la presencia escénica y el tipo de propuesta que mejor encaje en tu programación.\n\nTrabajamos de forma profesional, cercana y flexible, adaptándonos a cada espacio y a las necesidades específicas de cada proyecto para ofrecer cada propuesta en las mejores condiciones técnicas y artísticas.",
+    "descriptionAfterName": "es una selección cuidada de proyectos audiovisuales de flamenco en directo, a través de vídeos de actuaciones reales, para poder ver claramente qué hacemos y cómo trabajamos.\n\nCada proyecto tiene su propia identidad, formato y enfoque, y está pensado para teatros, salas de conciertos, clubes, festivales y otros espacios culturales. Puedes valorar el estilo, la presencia escénica y el tipo de propuesta que mejor encaje en tu programación.\n\nTrabajamos de forma profesional, cercana y flexible, adaptándonos a cada espacio y a las necesidades específicas de cada proyecto para ofrecer cada propuesta en las mejores condiciones técnicas y artísticas.",
+    "yearsExperience": "Años de Experiencia",
+    "internationalEvents": "Eventos Internacionales",
+    "professionalArtists": "Artistas Profesionales",
+    "quote": "Flamenco es el hablar del alma cuando las palabras no bastan. Una emoción que no se piensa, solo se siente y se entrega."
+  },
+  "contact": {
+    "title": "Solicita tu Presupuesto",
+    "subtitle": "Cuéntanos sobre tu evento y te responderemos lo antes posible",
+    "fullName": "Nombre completo",
+    "email": "Email",
+    "eventType": "Tipo de evento",
+    "eventTypePlaceholder": "Festival, boda, evento corporativo, etc.",
+    "message": "Mensaje",
+    "messagePlaceholder": "Cuéntanos sobre tu evento: fecha, ubicación, duración, número de asistentes...",
+    "sending": "Enviando...",
+    "submit": "Enviar Solicitud",
+    "directEmail": "También puedes escribirnos directamente a:",
+    "successTitle": "¡Mensaje enviado!",
+    "successMessage": "Te responderemos lo antes posible"
+  },
+  "footer": {
+    "description": "Espectáculos profesionales de flamenco tradicional español para eventos internacionales.",
+    "links": "Enlaces",
+    "contactTitle": "Contacto"
+  },
+  "duration": {
+    "1hour": "1 hora",
+    "1hourHalf": "1 hora y media",
+    "2hours": "2 horas"
+  }
+}
