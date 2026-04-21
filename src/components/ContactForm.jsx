@@ -130,7 +130,9 @@ const ContactForm = () => {
                 <Mail className="inline h-4 w-4 mr-1" />
                 {t('contact.directEmail')}{' '}
                 <a 
-                  href="mailto:sarauproject@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&to=sarauproject@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-300 hover:text-white underline"
                 >
                   sarauproject@gmail.com

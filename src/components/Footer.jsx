@@ -63,7 +63,9 @@ const Footer = () => {
             </h4>
             <div className="space-y-3">
               <a
-                href="mailto:sarauproject@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&to=sarauproject@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-gray-300 transition-colors hover:text-white"
               >
                 <Mail className="h-4 w-4" />
