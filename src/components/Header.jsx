@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { Button } from './ui/button';
 import LanguageSelector from './LanguageSelector';
@@ -8,6 +9,8 @@ const Header = ({ onContactClick }) => {
   const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,11 +21,13 @@ const Header = ({ onContactClick }) => {
   }, []);
 
   const scrollToSection = (id) => {
-    const el = document.getElementById(id);
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
+    if (location.pathname !== '/') {
+      navigate('/');
+      setTimeout(() => {
+        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+      }, 300);
     } else {
-      window.location.href = '/#' + id;
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
     }
     setIsMobileMenuOpen(false);
   };
@@ -40,8 +45,8 @@ const Header = ({ onContactClick }) => {
           {/* Logo */}
           <button
             onClick={() => {
-              if (window.location.pathname !== '/') {
-                window.location.href = '/';
+              if (location.pathname !== '/') {
+                navigate('/');
               } else {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }
@@ -71,18 +76,21 @@ const Header = ({ onContactClick }) => {
             >
               {t('nav.about')}
             </button>
-            <a
-              href="/blog"
+            <Link
+              to="/blog"
               className="text-sm font-medium uppercase tracking-wider transition-colors"
               style={{color: '#b0b0b0'}}
               data-testid="nav-blog"
             >
               Blog
-            </a>
+            </Link>
             <Button
               onClick={() => {
-                if (window.location.pathname !== '/') {
-                  window.location.href = '/#contact-section';
+                if (location.pathname !== '/') {
+                  navigate('/');
+                  setTimeout(() => {
+                    document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' });
+                  }, 300);
                 } else {
                   onContactClick();
                 }
@@ -124,17 +132,20 @@ const Header = ({ onContactClick }) => {
               >
                 {t('nav.about')}
               </button>
-              <a
-                href="/blog"
+              <Link
+                to="/blog"
                 className="block w-full py-3 text-left text-base font-medium uppercase tracking-wider text-gray-300 transition-colors hover:text-white"
                 data-testid="nav-blog-mobile"
               >
                 Blog
-              </a>
+              </Link>
               <Button
                 onClick={() => {
-                  if (window.location.pathname !== '/') {
-                    window.location.href = '/#contact-section';
+                  if (location.pathname !== '/') {
+                    navigate('/');
+                    setTimeout(() => {
+                      document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' });
+                    }, 300);
                   } else {
                     onContactClick();
                   }
