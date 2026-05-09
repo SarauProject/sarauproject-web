@@ -1,10 +1,21 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Mail, Instagram, Youtube } from 'lucide-react';
+import { useNavigate, useLocation } from 'react-router-dom';
+import { Mail, Youtube } from 'lucide-react';
 
 const Footer = () => {
   const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const goToSection = (id) => {
+    if (location.pathname !== '/') {
+      navigate('/', { state: { scrollTo: id } });
+    } else {
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <footer className="bg-black border-t border-gray-900">
@@ -16,7 +27,13 @@ const Footer = () => {
               src="/assets/logo.jpg" 
               alt="SarauProject Logo" 
               className="h-16 w-auto cursor-pointer"
-              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              onClick={() => {
+                if (location.pathname !== '/') {
+                  navigate('/');
+                } else {
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+              }}
             />
             <p className="text-sm text-gray-400">
               {t('footer.description')}
@@ -31,7 +48,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <button
-                  onClick={() => document.getElementById('videos-section')?.scrollIntoView({ behavior: 'smooth' })}
+                  onClick={() => goToSection('videos-section')}
                   className="text-gray-300 transition-colors hover:text-white text-sm"
                 >
                   {t('nav.performances')}
@@ -39,7 +56,7 @@ const Footer = () => {
               </li>
               <li>
                 <button
-                  onClick={() => document.getElementById('about-section')?.scrollIntoView({ behavior: 'smooth' })}
+                  onClick={() => goToSection('about-section')}
                   className="text-gray-300 transition-colors hover:text-white text-sm"
                 >
                   {t('nav.about')}
@@ -47,7 +64,7 @@ const Footer = () => {
               </li>
               <li>
                 <button
-                  onClick={() => document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' })}
+                  onClick={() => goToSection('contact-section')}
                   className="text-gray-300 transition-colors hover:text-white text-sm"
                 >
                   {t('nav.contact')}
