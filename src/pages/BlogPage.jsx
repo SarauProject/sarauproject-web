@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useLocation } from 'react-router-dom';
 import { ArrowLeft, Clock, Calendar, ChevronRight } from 'lucide-react';
 import { Card } from '../components/ui/card';
 import { Button } from '../components/ui/button';
@@ -25,9 +26,15 @@ const blogLabels = {
 const BlogPage = () => {
   const { i18n } = useTranslation();
   const [selectedPost, setSelectedPost] = useState(null);
+  const location = useLocation();
   const lang = i18n.language;
   const posts = blogPosts[lang] || blogPosts.en;
   const labels = blogLabels[lang] || blogLabels.en;
+
+  useEffect(() => {
+    setSelectedPost(null);
+    window.scrollTo(0, 0);
+  }, [location.key]);
 
   const handleContactClick = () => { window.location.href = '/#contact-section'; };
 
