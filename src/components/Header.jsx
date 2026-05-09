@@ -18,7 +18,12 @@ const Header = ({ onContactClick }) => {
   }, []);
 
   const scrollToSection = (id) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      window.location.href = '/#' + id;
+    }
     setIsMobileMenuOpen(false);
   };
 
@@ -34,7 +39,13 @@ const Header = ({ onContactClick }) => {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <button
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            onClick={() => {
+              if (window.location.pathname !== '/') {
+                window.location.href = '/';
+              } else {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }
+            }}
             className="transition-transform hover:scale-105"
           >
             <img 
@@ -69,7 +80,13 @@ const Header = ({ onContactClick }) => {
               Blog
             </a>
             <Button
-              onClick={onContactClick}
+              onClick={() => {
+                if (window.location.pathname !== '/') {
+                  window.location.href = '/#contact-section';
+                } else {
+                  onContactClick();
+                }
+              }}
               className="rounded-full bg-red-600 px-6 py-2 text-sm font-semibold uppercase tracking-wider transition-all hover:bg-red-700 hover:shadow-lg hover:shadow-red-600/50"
               style={{color: '#b0b0b0'}}
             >
@@ -116,7 +133,11 @@ const Header = ({ onContactClick }) => {
               </a>
               <Button
                 onClick={() => {
-                  onContactClick();
+                  if (window.location.pathname !== '/') {
+                    window.location.href = '/#contact-section';
+                  } else {
+                    onContactClick();
+                  }
                   setIsMobileMenuOpen(false);
                 }}
                 className="mt-4 w-full rounded-full bg-red-600 py-3 text-sm font-semibold uppercase tracking-wider text-white"
