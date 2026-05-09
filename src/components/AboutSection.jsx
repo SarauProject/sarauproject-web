@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { CheckCircle } from 'lucide-react';
+import { CheckCircle, ArrowDown } from 'lucide-react';
 
 const AboutSection = () => {
   const { t } = useTranslation();
@@ -152,6 +152,11 @@ const AboutSection = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center pt-12">
+        <button onClick={() => document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' })} className="animate-bounce text-white transition-opacity hover:opacity-70" aria-label="Scroll to contact">
+          <ArrowDown className="h-8 w-8" />
+        </button>
       </div>
     </section>
   );

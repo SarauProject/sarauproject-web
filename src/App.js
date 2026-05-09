@@ -9,7 +9,7 @@ import AboutSection from './components/AboutSection';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import { mockVideos, categories } from './data/mock';
-import { Music, Clock } from 'lucide-react';
+import { Music, Clock, ArrowDown } from 'lucide-react';
 
 // Admin pages
 import AdminLogin from './pages/AdminLogin';
@@ -167,6 +167,11 @@ function HomePage() {
               </div>
             )}
           </div>
+        </div>
+        <div className="flex justify-center pt-12">
+          <button onClick={() => document.getElementById('about-section')?.scrollIntoView({ behavior: 'smooth' })} className="animate-bounce text-white transition-opacity hover:opacity-70" aria-label="Scroll to about">
+            <ArrowDown className="h-8 w-8" />
+          </button>
         </div>
       </section>
 
