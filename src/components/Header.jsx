@@ -22,10 +22,7 @@ const Header = ({ onContactClick }) => {
 
   const scrollToSection = (id) => {
     if (location.pathname !== '/') {
-      navigate('/');
-      setTimeout(() => {
-        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-      }, 300);
+      navigate('/', { state: { scrollTo: id } });
     } else {
       document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
     }
@@ -82,15 +79,12 @@ const Header = ({ onContactClick }) => {
               style={{color: '#b0b0b0'}}
               data-testid="nav-blog"
             >
-              Blog
+              {t('nav.blog')}
             </Link>
             <Button
               onClick={() => {
                 if (location.pathname !== '/') {
-                  navigate('/');
-                  setTimeout(() => {
-                    document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' });
-                  }, 300);
+                  navigate('/', { state: { scrollTo: 'contact-section' } });
                 } else {
                   onContactClick();
                 }
@@ -137,15 +131,12 @@ const Header = ({ onContactClick }) => {
                 className="block w-full py-3 text-left text-base font-medium uppercase tracking-wider text-gray-300 transition-colors hover:text-white"
                 data-testid="nav-blog-mobile"
               >
-                Blog
+                {t('nav.blog')}
               </Link>
               <Button
                 onClick={() => {
                   if (location.pathname !== '/') {
-                    navigate('/');
-                    setTimeout(() => {
-                      document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' });
-                    }, 300);
+                    navigate('/', { state: { scrollTo: 'contact-section' } });
                   } else {
                     onContactClick();
                   }

@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import VideoCard from './components/VideoCard';
@@ -19,8 +19,18 @@ import BlogPage from './pages/BlogPage';
 function HomePage() {
   const { t, i18n } = useTranslation();
   const [selectedCategory, setSelectedCategory] = useState('all');
-  // Track which video is currently playing (by id)
   const [playingVideoId, setPlayingVideoId] = useState(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.state?.scrollTo) {
+      const id = location.state.scrollTo;
+      setTimeout(() => {
+        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+      window.history.replaceState({}, '');
+    }
+  }, [location.state]);
 
   // Función para obtener el título/descripción traducido del video
   const getVideoTranslation = (videoId, field) => {
