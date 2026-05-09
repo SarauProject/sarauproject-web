@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sarauproject.com/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sarauproject.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sarauproject.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sarauproject.com/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sarauproject.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sarauproject.com/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://sarauproject.com/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://sarauproject.com/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://sarauproject.com/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sarauproject.com/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://sarauproject.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sarauproject.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sarauproject.com/"/>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/oZ1yeRvoo2s/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Tarannà - SarauProject Flamenco Show</video:title>
+      <video:description>Cuadro flamenco que combina tradición y sonoridad actual con bata de cola y mantón. Baile, cante, guitarra, percusión y bajo.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=oZ1yeRvoo2s</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/oZ1yeRvoo2s</video:player_loc>
+      <video:duration>5400</video:duration>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/JoAlDaPrVLk/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Sarsalé - SarauProject Flamenco Fusión</video:title>
+      <video:description>Flamenco que combina la fuerza del tablao tradicional con sonidos modernos. Cante, baile, guitarra, percusión y bajo.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=JoAlDaPrVLk</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/JoAlDaPrVLk</video:player_loc>
+      <video:duration>5400</video:duration>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/OixPUT8HNSI/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Sarsalé Sextet - SarauProject Flamenco Ensemble</video:title>
+      <video:description>Espectáculo flamenco vibrante con seis componentes: dos bailes, dos cantes, guitarra y percusión.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=OixPUT8HNSI</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/OixPUT8HNSI</video:player_loc>
+      <video:duration>7200</video:duration>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/cB80rMnfrGI/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Alikindoi - SarauProject Flamenco Tablao</video:title>
+      <video:description>Espectáculo flamenco auténtico con cuatro artistas: baile, cante, guitarra y percusión.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=cB80rMnfrGI</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/cB80rMnfrGI</video:player_loc>
+      <video:duration>5400</video:duration>
+    </video:video>
+  </url>
+</urlset>

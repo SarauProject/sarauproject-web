@@ -104,7 +104,7 @@ const AboutSection = () => {
             <div className="aspect-square overflow-hidden rounded-lg relative">
               <img
                 src="/assets/about-image.jpg"
-                alt="Flamenco Performance"
+                alt="SarauProject - Artistas flamencos profesionales en escenario"
                 className="h-full w-full object-cover"
               />
             </div>

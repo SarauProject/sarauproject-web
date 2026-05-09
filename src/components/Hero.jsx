@@ -17,7 +17,7 @@ const Hero = ({ onContactClick }) => {
         <div className="relative h-full w-full overflow-hidden">
           <img 
             src="/assets/portada.jpg"
-            alt="SarauProject Flamenco Performance"
+            alt="SarauProject - Actuación de flamenco en vivo con baile, cante, guitarra y percusión"
             className="h-full w-full object-cover"
           />
           {/* Overlay negro MUY GRANDE para cubrir TODA la "t" y letras */}
@@ -34,7 +34,7 @@ const Hero = ({ onContactClick }) => {
             {/* Logo y letras SarauProject */}
             <img 
               src="/assets/letras-sarauproject.png" 
-              alt="SarauProject"
+              alt="SarauProject - Espectáculos de Flamenco Profesional"
               className="w-auto h-24 md:h-32 lg:h-40"
             />
             <h2 className="hero-title text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl" style={{color: '#b0b0b0'}}>
