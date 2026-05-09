@@ -36,7 +36,7 @@ const BlogPage = () => {
     window.scrollTo(0, 0);
   }, [location.key]);
 
-  const handleContactClick = () => { window.location.href = '/#contact-section'; };
+  const handleContactClick = () => { navigate('/', { state: { scrollTo: 'contact-section' } }); };
 
   const renderContent = (text) => {
     const parts = text.split(/\*\*(.*?)\*\*/g);
