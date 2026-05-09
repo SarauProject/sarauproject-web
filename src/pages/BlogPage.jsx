@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Clock, Calendar, ChevronRight } from 'lucide-react';
 import { Card } from '../components/ui/card';
 import { Button } from '../components/ui/button';
@@ -27,6 +27,7 @@ const BlogPage = () => {
   const { i18n } = useTranslation();
   const [selectedPost, setSelectedPost] = useState(null);
   const location = useLocation();
+  const navigate = useNavigate();
   const lang = i18n.language;
   const posts = blogPosts[lang] || blogPosts.en;
   const labels = blogLabels[lang] || blogLabels.en;
