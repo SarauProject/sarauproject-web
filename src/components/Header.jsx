@@ -60,6 +60,14 @@ const Header = ({ onContactClick }) => {
             >
               {t('nav.about')}
             </button>
+            <a
+              href="/blog"
+              className="text-sm font-medium uppercase tracking-wider transition-colors"
+              style={{color: '#b0b0b0'}}
+              data-testid="nav-blog"
+            >
+              Blog
+            </a>
             <Button
               onClick={onContactClick}
               className="rounded-full bg-red-600 px-6 py-2 text-sm font-semibold uppercase tracking-wider transition-all hover:bg-red-700 hover:shadow-lg hover:shadow-red-600/50"
@@ -99,6 +107,13 @@ const Header = ({ onContactClick }) => {
               >
                 {t('nav.about')}
               </button>
+              <a
+                href="/blog"
+                className="block w-full py-3 text-left text-base font-medium uppercase tracking-wider text-gray-300 transition-colors hover:text-white"
+                data-testid="nav-blog-mobile"
+              >
+                Blog
+              </a>
               <Button
                 onClick={() => {
                   onContactClick();

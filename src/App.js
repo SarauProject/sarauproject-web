@@ -14,6 +14,7 @@ import { Music, Clock } from 'lucide-react';
 // Admin pages
 import AdminLogin from './pages/AdminLogin';
 import AdminDashboard from './pages/AdminDashboard';
+import BlogPage from './pages/BlogPage';
 
 function HomePage() {
   const { t, i18n } = useTranslation();
@@ -181,3 +182,4 @@ function App() {
 }
 
 export default App;
+default App;

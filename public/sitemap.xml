@@ -52,4 +52,10 @@
       <video:duration>5400</video:duration>
     </video:video>
   </url>
+  <url>
+    <loc>https://sarauproject.com/blog</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
