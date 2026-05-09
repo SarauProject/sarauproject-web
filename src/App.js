@@ -168,9 +168,9 @@ function HomePage() {
             )}
           </div>
         </div>
-        <div className="flex justify-center pt-12">
-          <button onClick={() => document.getElementById('about-section')?.scrollIntoView({ behavior: 'smooth' })} className="animate-bounce text-white transition-opacity hover:opacity-70" aria-label="Scroll to about">
-            <ArrowDown className="h-8 w-8" />
+        <div className="flex justify-center pt-16 pb-4">
+          <button onClick={() => document.getElementById('about-section')?.scrollIntoView({ behavior: 'smooth' })} className="animate-bounce text-gray-400 hover:text-white transition-colors" aria-label="Scroll to about">
+            <ArrowDown className="h-10 w-10" />
           </button>
         </div>
       </section>
