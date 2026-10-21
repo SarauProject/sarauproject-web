@@ -1,0 +1,193 @@
+{
+  "brand_identity": {
+    "name": "SarauProject",
+    "concept": "Modern Flamenco Avant-Garde & High-End Stage Productions",
+    "tagline": "Flamenco contemporáneo de máxima fuerza escénica para teatros, festivales y eventos internacionales",
+    "tagline_en": "Contemporary Flamenco of supreme stage power for theaters, festivals, and international events",
+    "persona": "E1 Anti-AI Designer - Fusion of Editorial Swiss Typography, Stage Spotlights & Andalusian Warmth",
+    "theme": "Dark Cinematic Spanish Stage (Midnight Obsidian #0B0A0C + Deep Crimson #8B0000 + Golden Amber #D4AF37 + Warm Sand #EAE5D9)"
+  },
+  "typography": {
+    "heading_font": "Playfair Display or Cormorant Garamond (Serif Display with raw passion)",
+    "body_font": "Plus Jakarta Sans or Manrope (Clean geometric sans for program selectors and logistics clarity)",
+    "mono_font": "JetBrains Mono (for durations, instrumentation tags, technical requirements, stats)",
+    "heading_rules": "MUST use tracking-tight or tracking-tighter on headers > 32px. No generic Inter for main titles. Use uppercase labels with tracking-[0.25em]. Max hero heading text-4xl sm:text-5xl lg:text-6xl.",
+    "hierarchy": {
+      "hero_h1": "text-4xl sm:text-5xl lg:text-6xl font-serif font-semibold leading-none tracking-tight",
+      "section_h2": "text-2xl sm:text-3xl lg:text-4xl font-serif font-medium tracking-tight",
+      "card_title_h3": "text-xl sm:text-2xl font-serif font-semibold",
+      "body_text": "text-base sm:text-lg text-stone-300 leading-relaxed",
+      "caption_mono": "font-mono text-xs uppercase tracking-[0.2em] text-amber-400/90"
+    }
+  },
+  "colors": {
+    "background_primary": "#0B0A0C",
+    "background_secondary": "#141216",
+    "background_card": "#1A171D",
+    "accent_crimson": "#9E1B1B",
+    "accent_crimson_hover": "#C82323",
+    "accent_gold": "#D4AF37",
+    "accent_gold_soft": "rgba(212, 175, 55, 0.15)",
+    "text_primary": "#FAF8F5",
+    "text_secondary": "#B8B3AC",
+    "text_muted": "#78726A",
+    "border_subtle": "rgba(255, 255, 255, 0.08)",
+    "border_highlight": "rgba(212, 175, 55, 0.3)",
+    "glass_bg": "rgba(20, 18, 22, 0.75)",
+    "glass_border": "rgba(255, 255, 255, 0.1)"
+  },
+  "layout_and_spacing": {
+    "spacing_scale": "p-4, p-6, p-8, p-12, p-16, p-20, p-24, p-32",
+    "padding_containers": "Use internal padding (p-6 to p-10) for bordered cards to avoid text touching borders.",
+    "hero_overlay": "bg-gradient-to-t from-[#0B0A0C] via-[#0B0A0C]/60 to-transparent",
+    "bento_grid": "MODE A: TETRIS GRID (col-span-full md:col-span-8 for main hero show, col-span-4 for smaller shows, span-2 for quick stats/specs)",
+    "max_image_mobile_height": "max-h-[75vh]"
+  },
+  "key_features_and_components": {
+    "navigation_header": {
+      "style": "Sticky / Floating Crystal Glassmorphism (backdrop-blur-xl bg-[#0B0A0C]/80 border-b border-white/10 z-50)",
+      "contents": ["Custom Flamenco SVG Logo Mark", "Shows (Espectáculos)", "About (Sobre Nosotros)", "Stats", "Contact / Booking (Contratar)", "Language Switcher (ES / EN)"],
+      "mobile": "Slide-over drawer with animated stagger menu links"
+    },
+    "kinetic_hero": {
+      "style": "Line-by-line masked text reveal with Framer Motion + subtle mouse parallax + warm stage ambient light blur",
+      "headline_es": "El Arte del Flamenco de Vanguardia en Escena",
+      "headline_en": "The Art of Avant-Garde Flamenco on Stage",
+      "subline_es": "Cuatro producciones únicas listas para festivales, teatros y eventos internacionales de alto nivel.",
+      "subline_en": "Four unique productions ready for premier festivals, theaters, and high-level international events.",
+      "cta_buttons": ["Explorar Espectáculos", "Solicitar Presupuesto Directo"]
+    },
+    "marquee_ribbon": {
+      "style": "Slow kinetic editorial marquee drifting across screen with low-contrast gold-amber stroke text",
+      "items": ["TARANNÀ", "SARSALÉ", "SARSALÉ SEXTET", "ALIKINDOI", "25+ AÑOS DE TRAYECTORIA", "200+ EVENTOS INTERNACIONALES"]
+    },
+    "shows_bento_grid": {
+      "shows_data": [
+        {
+          "id": "taranna",
+          "title": "Tarannà",
+          "tagline_es": "Esencia, ritmo y expresión flamenca pura",
+          "tagline_en": "Essence, rhythm, and pure flamenco expression",
+          "duration": "75 min",
+          "performers": "4-6 Artistas (Guitarra, Cante, Baile, Percusión)",
+          "youtube_id": "dQw4w9WgXcQ",
+          "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "description_es": "Una mirada íntima y vibrante a las raíces del flamenco tradicional reinterpretadas con pulso contemporáneo.",
+          "description_en": "An intimate and vibrant gaze into traditional flamenco roots reinterpreted with a contemporary heartbeat.",
+          "image": "https://images.unsplash.com/photo-1579539760267-b2e78d9d735e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHwyfHxmbGFtZW5jbyUyMGRhbmNlJTIwZ3VpdGFyJTIwcGVyZm9ybWFuY2UlMjBzdGFnZSUyMGxpZ2h0aW5nfGVufDB8fHx8MTc5MjU3NTc2MXww&ixlib=rb-4.1.0&q=85",
+          "featured": true
+        },
+        {
+          "id": "sarsale",
+          "title": "Sarsalé",
+          "tagline_es": "Fuerza telúrica y dinamismo escénico",
+          "tagline_en": "Telluric power and stage dynamism",
+          "duration": "60 min",
+          "performers": "5 Artistas",
+          "youtube_id": "dQw4w9WgXcQ",
+          "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "description_es": "Pulsión rítmica inolvidable donde la guitarra flamenca dialoga con la fuerza del zapateado.",
+          "description_en": "Unforgettable rhythmic drive where flamenco guitar dialogues with intense footwork.",
+          "image": "https://images.unsplash.com/photo-1722841549679-e9f77fb291d3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHszfHxzcGFuaXNoJTIwZmxhbWVuY28lMjBhY291c3RpYyUyMGd1aXRhciUyMG11c2ljaWFuJTIwY29uY2VydCUyMHN0YWdlfGVufDB8fHx8MTc5MjU3NTc2N3ww&ixlib=rb-4.1.0&q=85",
+          "featured": false
+        },
+        {
+          "id": "sarsale-sextet",
+          "title": "Sarsalé Sextet",
+          "tagline_es": "Formación sinfónica flamenca de gran formato",
+          "tagline_en": "Large format flamenco symphonic ensemble",
+          "duration": "90 min",
+          "performers": "6 Artistas en directo",
+          "youtube_id": "dQw4w9WgXcQ",
+          "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "description_es": "Nuestra propuesta más ambiciosa con arreglos de gran riqueza instrumental para grandes auditorios y teatros.",
+          "description_en": "Our most ambitious production featuring rich instrumental arrangements for major auditoriums and theaters.",
+          "image": "https://images.pexels.com/photos/7715347/pexels-photo-7715347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "featured": false
+        },
+        {
+          "id": "alikindoi",
+          "title": "Alikindoi",
+          "tagline_es": "Fusionando el duende flamenco con pinceladas mediterráneas",
+          "tagline_en": "Fusing flamenco spirit with Mediterranean strokes",
+          "duration": "70 min",
+          "performers": "4 Artistas",
+          "youtube_id": "dQw4w9WgXcQ",
+          "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "description_es": "Un viaje sonoro envolvente que cautiva tanto a expertos como a audiencias internacionales de festivales.",
+          "description_en": "An immersive sonic journey capturing experts and international festival audiences alike.",
+          "image": "https://images.unsplash.com/photo-1593573969589-c416b9c926de?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaH3fHxmbGFtZW5jbyUyMGRhbmNlJTIwZ3VpdGFyJTIwcGVyZm9ybWFuY2UlMjBzdGFnZSUyMGxpZ2h0aW5nfGVufDB8fHx8MTc5MjU3NTc2MXww&ixlib=rb-4.1.0&q=85",
+          "featured": false
+        }
+      ]
+    },
+    "youtube_modal": "Accessible Dialog / Lightbox playing full video embed with custom close button and show summary card.",
+    "about_and_stats": {
+      "stats": [
+        {"value": "25+", "label_es": "Años de trayectoria", "label_en": "Years of artistic legacy"},
+        {"value": "200+", "label_es": "Eventos internacionales", "label_en": "International performances"},
+        {"value": "4", "label_es": "Espectáculos en gira", "label_en": "Active touring productions"},
+        {"value": "100%", "label_es": "Garantía de producción", "label_en": "Full technical support"}
+      ]
+    },
+    "booking_quote_form": {
+      "fields": ["nombre / name", "email", "telefono / phone", "espectaculo / show selection", "tipo_evento / event type (Teatro, Festival, Boda, Corporativo)", "fecha / date", "ubicacion / location", "mensaje / message"],
+      "action": "POST /api/quotes - saves to backend database with Sonner toast feedback and real-time validation",
+      "style": "Shadcn Form primitives styled with dark glass input cards, warm glow focus rings, clear error hints"
+    },
+    "sticky_floating_cta": {
+      "style": "Bottom floating bar with 'Solicitar Presupuesto / Book Show' CTA + quick phone/email link that stays accessible on scroll."
+    },
+    "admin_dashboard": {
+      "route": "/admin",
+      "function": "Simple password/auth protected table to view, filter, and manage submitted booking quotes (stored in backend SQL/Mongo database)."
+    }
+  },
+  "libraries_and_motion": {
+    "smooth_scroll": "lenis (installed/configured in root layout)",
+    "animations": "framer-motion for entrance reveals, modal scale transitions, bento hover effects",
+    "icons": "lucide-react (Calendar, Play, Clock, Users, Globe, Mail, Phone, CheckCircle, ChevronRight, Award, Music)",
+    "notifications": "sonner for quote submission toasts"
+  },
+  "image_urls": [
+    {
+      "category": "hero_flamenco",
+      "url": "https://images.unsplash.com/photo-1579539760267-b2e78d9d735e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHwyfHxmbGFtZW5jbyUyMGRhbmNlJTIwZ3VpdGFyJTIwcGVyZm9ybWFuY2UlMjBzdGFnZSUyMGxpZ2h0aW5nfGVufDB8fHx8MTc5MjU3NTc2MXww&ixlib=rb-4.1.0&q=85",
+      "description": "Woman in dark dress dancing on stage under dramatic orange stage lights"
+    },
+    {
+      "category": "spanish_guitar",
+      "url": "https://images.unsplash.com/photo-1528553744039-c1dcef33574f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHw0fHxmbGFtZW5jbyUyMGRhbmNlJTIwZ3VpdGFyJTIwcGVyZm9ybWFuY2UlMjBzdGFnZSUyMGxpZ2h0aW5nfGVufDB8fHx8MTc5MjU3NTc2MXww&ixlib=rb-4.1.0&q=85",
+      "description": "Spanish acoustic guitar in warm spotlight"
+    },
+    {
+      "category": "guitarist_stage",
+      "url": "https://images.unsplash.com/photo-1722841549679-e9f77fb291d3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHszfHxzcGFuaXNoJTIwZmxhbWVuY28lMjBhY291c3RpYyUyMGd1aXRhciUyMG11c2ljaWFuJTIwY29uY2VydCUyMHN0YWdlfGVufDB8fHx8MTc5MjU3NTc2N3ww&ixlib=rb-4.1.0&q=85",
+      "description": "Flamenco guitarist playing passionately on stage"
+    },
+    {
+      "category": "stage_ensemble",
+      "url": "https://images.pexels.com/photos/7715347/pexels-photo-7715347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Live musical performance under warm amber and dramatic stage lights"
+    },
+    {
+      "category": "flamenco_duo",
+      "url": "https://images.unsplash.com/photo-1593573969589-c416b9c926de?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaH3fHxmbGFtZW5jbyUyMGRhbmNlJTIwZ3VpdGFyJTIwcGVyZm9ybWFuY2UlMjBzdGFnZSUyMGxpZ2h0aW5nfGVufDB8fHx8MTc5MjU3NTc2MXww&ixlib=rb-4.1.0&q=85",
+      "description": "Flamenco dancers in rhythmic movement on stage"
+    }
+  ],
+  "instructions_to_main_agent": [
+    "Ensure Lenis smooth scrolling is initialized cleanly on the window element.",
+    "Implement bilingual support (ES / EN) using a React context or clean state so programmers worldwide can view show descriptions.",
+    "Ensure all interactive components (buttons, tabs, inputs, modals, quote items) include explicit data-testid attributes for testing.",
+    "Connect the booking form to the FastAPI backend API `/api/quotes` for persistence and render quote requests at `/admin`.",
+    "Use standard JavaScript (.js / .jsx) files for React components.",
+    "Never leave transparent backgrounds on sticky headers or popups — use glassmorphism with heavy backdrop blur (backdrop-blur-xl bg-[#0B0A0C]/80)."
+  ],
+  "GENERAL_UI_UX_DESIGN_GUIDELINES": [
+    "Avoid generic centered layouts. Use asymmetrical Bento grids for shows.",
+    "Ensure text contrast meets WCAG AA standards (minimum 4.5:1 ratio).",
+    "All buttons must have distinct hover, focus, and active micro-interactions.",
+    "All interactive elements MUST include kebab-case data-testid attributes."
+  ]
+}
