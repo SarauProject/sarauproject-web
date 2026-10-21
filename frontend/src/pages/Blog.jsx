@@ -7,7 +7,7 @@ import { Footer } from "../components/Footer";
 import { Reveal, Eyebrow, MaskLine } from "../components/Reveal";
 import { useLang, useGo } from "../lib/lang";
 
-const IMGS = ["/assets/yt-oZ1yeRvoo2s.jpg", "/assets/yt-OixPUT8HNSI.jpg", "/assets/yt-JoAlDaPrVLk.jpg", "/assets/about-image.jpg"];
+const IMGS = ["/assets/blog-bodas.jpg", "/assets/blog-corporativos.jpg", "/assets/blog-festivales.jpg", "/assets/blog-unesco.jpg"];
 
 const Rich = ({ text }) => (
   <p className="text-base leading-relaxed text-[#B8B3AC] sm:text-lg">
@@ -23,7 +23,7 @@ const PostCard = ({ post, i }) => {
     <Reveal delay={i * 0.06}>
       <Link to={`/blog/${post.id}`} data-testid={`blog-card-${post.id}`} className="group grid gap-6 border-t border-white/10 py-10 md:grid-cols-12 md:gap-10">
         <div className="aspect-[16/10] overflow-hidden md:col-span-4">
-          <img src={IMGS[i % IMGS.length]} alt={post.title} loading="lazy" className="h-full w-full object-cover grayscale-[30%] transition-[transform,filter] duration-700 group-hover:scale-105 group-hover:grayscale-0" />
+          <img src={IMGS[i % IMGS.length]} alt={post.title} loading="lazy" className="h-full w-full object-cover object-top grayscale-[30%] transition-[transform,filter] duration-700 group-hover:scale-105 group-hover:grayscale-0" />
         </div>
         <div className="md:col-span-8">
           <p className="flex flex-wrap items-center gap-4 font-mono text-xs uppercase tracking-[0.18em] text-[#D4AF37]">
