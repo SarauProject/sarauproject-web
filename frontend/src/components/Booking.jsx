@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
 import { ArrowUpRight, Loader2, Mail } from "lucide-react";
-import axios, { API, errText } from "../lib/api";
 import { SHOWS, EMAIL } from "../lib/i18n";
+
+const WEB3FORMS_KEY = "f1a1a5da-0e7d-4812-bde5-3819861a05c2";
 import { useLang } from "../lib/lang";
 import { Reveal, Eyebrow } from "./Reveal";
 
@@ -29,12 +30,22 @@ export default function Booking({ preset }) {
     if (!form.name.trim() || !form.email.trim() || form.message.trim().length < 5) { toast.error(f.required); return; }
     setBusy(true);
     try {
-      await axios.post(`${API}/quotes`, { ...form, lang });
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          access_key: WEB3FORMS_KEY, subject: "Nuevo contacto - SarauProject", from_name: "SarauProject Web",
+          name: form.name, email: form.email, telefono: form.phone, espectaculo: form.show, tipo_evento: form.event_type,
+          fecha: form.event_date, lugar: form.location, message: form.message, idioma: lang,
+        }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || data?.success === false) throw new Error(data?.message || `HTTP ${res.status}`);
       toast.success(f.ok);
       setForm(EMPTY);
       setSent(true);
     } catch (err) {
-      toast.error(`${f.err} ${EMAIL}`, { description: errText(err) });
+      toast.error(`${f.err} ${EMAIL}`, { description: err?.message });
     } finally { setBusy(false); }
   };
 
