@@ -39,7 +39,7 @@ export default function About() {
           </Reveal>
           <Reveal delay={0.15}>
             <div className="mt-10 space-y-5 text-base leading-relaxed text-[#2a2622]">
-              <p><img src="/assets/letras-sarauproject.png" alt="SarauProject" className="mr-1.5 inline-block h-[1.4em] w-auto align-[-0.35em]" />{t.about.p1}</p><p>{t.about.p2}</p><p>{t.about.p3}</p>
+              <p><img src="/assets/letras-sarauproject-dark.png" alt="SarauProject" className="mr-1.5 inline-block h-[1.4em] w-auto align-[-0.35em]" />{t.about.p1}</p><p>{t.about.p2}</p><p>{t.about.p3}</p>
             </div>
           </Reveal>
           <ul className="mt-10 divide-y divide-[#0B0A0C]/10 border-y border-[#0B0A0C]/10">
