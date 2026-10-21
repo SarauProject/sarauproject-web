@@ -50,7 +50,7 @@ export default function Nav() {
 
   return (
     <header className={`fixed inset-x-0 top-0 z-50 transition-[background-color,border-color] duration-500 ${scrolled ? "border-b border-white/10 bg-[#0B0A0C]/80 backdrop-blur-xl" : "border-b border-transparent"}`}>
-      <nav className="mx-auto flex h-[72px] max-w-[1400px] items-center justify-between px-5 md:px-10">
+      <nav className="mx-auto flex h-[76px] max-w-[1400px] items-center justify-between px-5 sm:h-[88px] md:px-10">
         <Logo onClick={() => go("top")} />
         <div className="hidden items-center gap-9 md:flex">
           {LINKS.map(([k, id]) => (

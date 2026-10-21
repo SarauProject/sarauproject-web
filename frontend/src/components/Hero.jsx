@@ -28,7 +28,7 @@ export default function Hero() {
 
   return (
     <section id="top" ref={ref} onMouseMove={onMove} data-testid="hero-section"
-      className="relative min-h-[100svh] overflow-hidden pt-[72px]">
+      className="relative min-h-[100svh] overflow-hidden pt-[76px] sm:pt-[88px]">
       <motion.div className="pointer-events-none absolute inset-0 z-[1]" style={{ background: spot }} />
       <div aria-hidden className="pointer-events-none absolute -left-[4vw] bottom-[6vh] z-0 select-none font-display text-[34vw] italic leading-none text-stroke opacity-40">
         Sarau

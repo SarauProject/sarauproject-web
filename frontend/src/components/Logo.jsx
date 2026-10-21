@@ -4,6 +4,6 @@ export const LogoMark = ({ className = "h-8 w-8" }) => (
 
 export const Logo = ({ onClick }) => (
   <button onClick={onClick} data-testid="nav-logo" className="group flex items-center gap-2.5" aria-label="SarauProject">
-    <img src="/assets/letras-sarauproject.png" alt="SarauProject" className="h-8 w-auto transition-opacity duration-300 group-hover:opacity-80 sm:h-9" />
+    <img src="/assets/letras-sarauproject.png" alt="SarauProject" className="h-11 w-auto transition-opacity duration-300 group-hover:opacity-80 sm:h-14" />
   </button>
 );

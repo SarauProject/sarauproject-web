@@ -12,7 +12,7 @@ export const Footer = () => {
       <div className="mx-auto max-w-[1400px] px-5 pb-28 pt-16 md:px-10 md:pb-12">
         <button onClick={() => scrollToId("book")} data-testid="footer-cta"
           className="group block" aria-label="SarauProject">
-          <img src="/assets/letras-sarauproject.png" alt="SarauProject" className="h-16 w-auto transition-opacity duration-500 group-hover:opacity-80 sm:h-24" />
+          <img src="/assets/letras-sarauproject.png" alt="SarauProject" className="h-20 w-auto transition-opacity duration-500 group-hover:opacity-80 sm:h-32" />
         </button>
         <div className="mt-12 flex flex-col gap-6 border-t border-white/10 pt-8 text-sm text-[#B8B3AC] md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-3"><LogoMark className="h-7 w-7 rounded-sm" />{t.footer.tagline}</div>
