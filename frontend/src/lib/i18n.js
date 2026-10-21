@@ -194,7 +194,7 @@ const build = (code) => {
   const o = O[code];
   const e = E[code];
   const [qTitle, qRest] = splitQuote(o.about.quote);
-  const paras = `SarauProject ${o.about.descriptionAfterName}`.split(/\n\n+/);
+  const paras = o.about.descriptionAfterName.split(/\n\n+/);
   const showData = Object.fromEntries(SHOWS.map((s, i) => [s.id, {
     desc: o.videos[s.video].description,
     duration: o.duration[s.dur],
