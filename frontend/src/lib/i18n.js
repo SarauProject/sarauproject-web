@@ -1,4 +1,6 @@
 import O from "./locales.json";
+import BLOG from "./blog.json";
+import BLOG_UI from "./blog-ui.json";
 
 export const EMAIL = "sarauproject@gmail.com";
 
@@ -202,7 +204,8 @@ const build = (code) => {
     tag: e.tags[i],
   }]));
   return {
-    nav: { shows: o.nav.performances, about: o.nav.about, how: e.how, book: e.book },
+    nav: { shows: o.nav.performances, about: o.nav.about, how: e.how, blog: o.nav.blog, book: e.book },
+    blog: { ...BLOG_UI[code], posts: BLOG[code] ?? [] },
     hero: {
       eyebrow: e.eyebrow, lines: e.lines, sub: `${o.hero.subtitle} ${o.hero.tagline}`,
       cta1: o.hero.watchPerformances, cta2: o.hero.requestQuote,

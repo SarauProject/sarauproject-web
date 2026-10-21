@@ -27,6 +27,9 @@ https://www.sarauproject.com/
 - Logo ORIGINAL del cliente (logo.jpg / letras-sarauproject.png) en nav, footer, admin y favicon — NO cambiar la marca
 - 12 idiomas como la web original (es, en, fr, it, de, pl, tr, hu, ru, id, zh, ja): textos originales en src/lib/locales.json + textos nuevos en src/lib/i18n.js; selector desplegable
 
+- Blog recuperado de la web original (4 artículos × 12 idiomas, src/lib/blog.json) en /blog y /blog/:id, enlace en menú y footer
+- Publicación independiente: Vercel (frontend/vercel.json) + formulario vía Web3Forms (clave original). Panel /admin retirado de la web.
+
 ## Backlog
 - P1: Notificación por email al recibir solicitud (Resend)
 - P1: Botón WhatsApp (requiere número)

@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import Lenis from "lenis";
 import Nav from "../components/Nav";
 import Hero from "../components/Hero";
@@ -14,6 +15,13 @@ import { scrollToId } from "../lib/lang";
 export default function Home() {
   const [active, setActive] = useState(null);
   const [preset, setPreset] = useState("");
+  const { state } = useLocation();
+
+  useEffect(() => {
+    if (!state?.scrollTo) return undefined;
+    const tm = setTimeout(() => scrollToId(state.scrollTo), 400);
+    return () => clearTimeout(tm);
+  }, [state]);
 
   useEffect(() => {
     const lenis = new Lenis({ autoRaf: true, lerp: 0.09 });

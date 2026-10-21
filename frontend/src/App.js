@@ -4,6 +4,7 @@ import "lenis/dist/lenis.css";
 import "./App.css";
 import { LangProvider } from "./lib/lang";
 import Home from "./pages/Home";
+import Blog from "./pages/Blog";
 
 export default function App() {
   return (
@@ -11,6 +12,8 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:id" element={<Blog />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </BrowserRouter>
