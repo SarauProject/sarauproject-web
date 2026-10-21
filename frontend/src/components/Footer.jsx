@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { LogoMark } from "./Logo";
 import { useLang, scrollToId, useGo } from "../lib/lang";
-import { EMAIL } from "../lib/i18n";
+import { EMAIL, GMAIL_URL } from "../lib/i18n";
 
 export const Footer = () => {
   const { t } = useLang();
@@ -13,7 +13,7 @@ export const Footer = () => {
       <div className="mx-auto max-w-[1400px] px-5 pb-28 pt-10 md:px-10 md:pb-10">
         <div className="flex flex-col gap-6 text-sm text-[#B8B3AC] md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-3"><LogoMark className="h-7 w-7 rounded-sm" />{t.footer.tagline}</div>
-          <a href={`mailto:${EMAIL}`} data-testid="footer-email" className="link-underline text-[#FAF8F5]">{EMAIL}</a>
+          <a href={GMAIL_URL} target="_blank" rel="noopener noreferrer" data-testid="footer-email" className="link-underline text-[#FAF8F5]">{EMAIL}</a>
           <button onClick={() => go("blog")} data-testid="footer-blog-link" className="link-underline text-left text-[#FAF8F5]">{t.nav.blog}</button>
           <p>© {new Date().getFullYear()} SarauProject. {t.footer.rights}</p>
         </div>

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
 import { ArrowUpRight, Loader2, Mail } from "lucide-react";
-import { SHOWS, EMAIL } from "../lib/i18n";
+import { SHOWS, EMAIL, GMAIL_URL } from "../lib/i18n";
 
 const WEB3FORMS_KEY = "f1a1a5da-0e7d-4812-bde5-3819861a05c2";
 import { useLang } from "../lib/lang";
@@ -58,7 +58,7 @@ export default function Booking({ preset }) {
           <Reveal delay={0.1}><h2 className="mt-6 font-display text-5xl font-medium leading-[1] tracking-tight text-[#FAF8F5] sm:text-6xl">{f.title}</h2></Reveal>
           <Reveal delay={0.15}><p className="mt-6 max-w-sm text-base leading-relaxed text-[#B8B3AC] sm:text-lg">{f.sub}</p></Reveal>
           <Reveal delay={0.2}>
-            <a href={`mailto:${EMAIL}`} data-testid="booking-email-link" className="mt-12 inline-flex items-center gap-3 text-[#FAF8F5]">
+            <a href={GMAIL_URL} target="_blank" rel="noopener noreferrer" data-testid="booking-email-link" className="mt-12 inline-flex items-center gap-3 text-[#FAF8F5]">
               <span className="grid h-12 w-12 place-items-center rounded-full border border-white/15"><Mail size={18} className="text-[#D4AF37]" /></span>
               <span><span className="block text-xs text-[#B8B3AC]">{f.direct}</span><span className="link-underline text-lg">{EMAIL}</span></span>
             </a>

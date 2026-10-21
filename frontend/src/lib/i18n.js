@@ -3,6 +3,7 @@ import BLOG from "./blog.json";
 import BLOG_UI from "./blog-ui.json";
 
 export const EMAIL = "sarauproject@gmail.com";
+export const GMAIL_URL = `https://mail.google.com/mail/?view=cm&to=${EMAIL}`;
 
 export const LANGS = [
   ["es", "Español"], ["en", "English"], ["fr", "Français"], ["it", "Italiano"], ["de", "Deutsch"], ["pl", "Polski"],
