@@ -24,7 +24,8 @@ https://www.sarauproject.com/
 - Sobre nosotros (sección clara con parallax), Para quién actuamos, Cómo contratar (3 pasos)
 - Formulario de presupuesto (POST /api/quotes) con toasts; CTA flotante; footer
 - Panel /admin (login JWT, listado, cambio de estado, borrado)
-- Logo SVG nuevo + favicon, meta SEO/OG en español
+- Logo ORIGINAL del cliente (logo.jpg / letras-sarauproject.png) en nav, footer, admin y favicon — NO cambiar la marca
+- 12 idiomas como la web original (es, en, fr, it, de, pl, tr, hu, ru, id, zh, ja): textos originales en src/lib/locales.json + textos nuevos en src/lib/i18n.js; selector desplegable
 
 ## Backlog
 - P1: Notificación por email al recibir solicitud (Resend)

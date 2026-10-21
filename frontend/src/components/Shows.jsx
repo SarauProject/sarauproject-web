@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Play, Clock, ArrowUpRight } from "lucide-react";
-import { SHOWS } from "../lib/content";
+import { SHOWS } from "../lib/i18n";
 import { useLang, scrollToId } from "../lib/lang";
 import { Reveal, Eyebrow } from "./Reveal";
 
@@ -12,7 +12,8 @@ const SPANS = [
 ];
 
 const ShowCard = ({ show, i, onOpen }) => {
-  const { lang, t } = useLang();
+  const { t } = useLang();
+  const d = t.showData[show.id];
   return (
     <Reveal delay={i * 0.08} className={`${SPANS[i]} h-full`}>
       <motion.button
@@ -28,7 +29,7 @@ const ShowCard = ({ show, i, onOpen }) => {
         <div className="absolute left-5 top-5 flex items-center gap-3 sm:left-7 sm:top-7">
           <span className="font-mono text-xs text-[#D4AF37]">0{i + 1}</span>
           <span className="rounded-full border border-white/20 bg-[#0B0A0C]/50 px-3 py-1 font-mono text-[11px] uppercase tracking-[0.18em] text-[#EAE5D9] backdrop-blur-md">
-            {show.tag[lang]}
+            {d.tag}
           </span>
         </div>
         <motion.span variants={{ hover: { scale: 1.1, rotate: 90 } }}
@@ -38,8 +39,8 @@ const ShowCard = ({ show, i, onOpen }) => {
         <div className="absolute inset-x-0 bottom-0 p-5 sm:p-8">
           <h3 className="font-display text-4xl font-medium tracking-tight text-[#FAF8F5] sm:text-5xl">{show.title}</h3>
           <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 font-mono text-xs uppercase tracking-[0.15em] text-[#B8B3AC]">
-            <span className="flex items-center gap-1.5"><Clock size={13} className="text-[#D4AF37]" />{show.duration[lang]}</span>
-            <span>{show.lineup[lang].join(" · ")}</span>
+            <span className="flex items-center gap-1.5"><Clock size={13} className="text-[#D4AF37]" />{d.duration}</span>
+            <span>{d.lineup.join(" · ")}</span>
           </div>
           <span className="mt-5 inline-flex items-center gap-2 text-sm text-[#FAF8F5] opacity-90">
             <span className="link-underline">{t.shows.watch}</span><ArrowUpRight size={15} />

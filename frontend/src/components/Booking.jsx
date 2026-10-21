@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { toast } from "sonner";
 import { ArrowUpRight, Loader2, Mail } from "lucide-react";
 import axios, { API, errText } from "../lib/api";
-import { SHOWS, EMAIL } from "../lib/content";
+import { SHOWS, EMAIL } from "../lib/i18n";
 import { useLang } from "../lib/lang";
 import { Reveal, Eyebrow } from "./Reveal";
 

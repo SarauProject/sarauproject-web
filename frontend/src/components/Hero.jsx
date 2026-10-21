@@ -41,7 +41,7 @@ export default function Hero() {
             <span className="mr-3 inline-block h-2 w-2 animate-pulse rounded-full bg-[#C82323] align-middle" />
             {t.hero.eyebrow}
           </motion.p>
-          <h1 key={lang} data-testid="hero-title" className="font-display text-6xl font-medium leading-[0.92] tracking-tight text-[#FAF8F5] sm:text-7xl lg:text-[6.5rem]">
+          <h1 key={lang} data-testid="hero-title" className="font-display text-5xl font-medium leading-[0.95] tracking-tight text-[#FAF8F5] sm:text-7xl lg:text-[6.5rem]">
             <MaskLine delay={0.3}>{t.hero.lines[0]}</MaskLine>
             <MaskLine delay={0.45} className="italic text-[#D4AF37]">{t.hero.lines[1]}</MaskLine>
             <MaskLine delay={0.6}>{t.hero.lines[2]}</MaskLine>

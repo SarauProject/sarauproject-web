@@ -1,21 +1,37 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Globe, Check } from "lucide-react";
 import { Logo } from "./Logo";
 import { useLang, scrollToId } from "../lib/lang";
+import { LANGS } from "../lib/i18n";
 
 const LINKS = [["shows", "shows"], ["about", "about"], ["how", "how"]];
 
 const LangSwitch = ({ id }) => {
   const { lang, setLang } = useLang();
+  const [open, setOpen] = useState(false);
   return (
-    <div className="flex rounded-full border border-white/15 p-0.5 font-mono text-xs" data-testid={`${id}-lang-switch`}>
-      {["es", "en"].map((l) => (
-        <button key={l} data-testid={`${id}-lang-${l}`} onClick={() => setLang(l)}
-          className={`rounded-full px-3 py-1.5 uppercase transition-colors duration-300 ${lang === l ? "bg-[#FAF8F5] text-[#0B0A0C]" : "text-[#B8B3AC] hover:text-white"}`}>
-          {l}
-        </button>
-      ))}
+    <div className="relative" data-testid={`${id}-lang-switch`}>
+      <button data-testid={`${id}-lang-toggle`} onClick={() => setOpen(!open)} aria-label="language"
+        className="flex items-center gap-2 rounded-full border border-white/15 px-3 py-2 font-mono text-xs uppercase text-[#EAE5D9] transition-colors hover:border-[#D4AF37]">
+        <Globe size={14} className="text-[#D4AF37]" />{lang}
+      </button>
+      <AnimatePresence>
+        {open && (
+          <motion.ul initial={{ opacity: 0, y: -6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -6 }}
+            data-lenis-prevent data-testid={`${id}-lang-menu`}
+            className="absolute right-0 top-full z-50 mt-2 max-h-[70vh] w-52 overflow-y-auto border border-white/10 bg-[#141216]/95 py-2 backdrop-blur-xl">
+            {LANGS.map(([c, name]) => (
+              <li key={c}>
+                <button data-testid={`${id}-lang-${c}`} onClick={() => { setLang(c); setOpen(false); }}
+                  className={`flex w-full items-center justify-between px-4 py-2.5 text-left text-sm transition-colors hover:bg-white/5 ${lang === c ? "text-[#D4AF37]" : "text-[#EAE5D9]"}`}>
+                  {name}<span className="font-mono text-[11px] uppercase text-[#B8B3AC]">{lang === c ? <Check size={14} className="text-[#D4AF37]" /> : c}</span>
+                </button>
+              </li>
+            ))}
+          </motion.ul>
+        )}
+      </AnimatePresence>
     </div>
   );
 };

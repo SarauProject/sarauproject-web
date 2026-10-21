@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { T } from "./content";
+import { T } from "./i18n";
 
 const LangCtx = createContext(null);
 

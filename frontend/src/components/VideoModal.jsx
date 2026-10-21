@@ -4,7 +4,8 @@ import { X, Clock, Users } from "lucide-react";
 import { useLang } from "../lib/lang";
 
 export default function VideoModal({ show, onClose, onBook }) {
-  const { lang, t } = useLang();
+  const { t } = useLang();
+  const d = show ? t.showData[show.id] : null;
   useEffect(() => {
     if (!show) return undefined;
     const k = (e) => { if (e.key === "Escape") onClose(); };
@@ -34,14 +35,14 @@ export default function VideoModal({ show, onClose, onBook }) {
             <div className="grid gap-8 p-6 sm:p-10 md:grid-cols-12">
               <div className="md:col-span-7">
                 <h3 className="font-display text-4xl tracking-tight text-[#FAF8F5] sm:text-5xl">{show.title}</h3>
-                <p className="mt-5 text-sm leading-relaxed text-[#B8B3AC] sm:text-base">{show.desc[lang]}</p>
+                <p className="mt-5 text-sm leading-relaxed text-[#B8B3AC] sm:text-base">{d.desc}</p>
               </div>
               <div className="flex flex-col gap-6 md:col-span-4 md:col-start-9">
                 <div className="space-y-4 border-l border-[#D4AF37]/40 pl-5 text-sm text-[#EAE5D9]">
-                  <p className="flex items-center gap-2"><Clock size={15} className="text-[#D4AF37]" /><span className="font-mono text-xs uppercase tracking-[0.18em] text-[#B8B3AC]">{t.shows.duration}</span> {show.duration[lang]}</p>
+                  <p className="flex items-center gap-2"><Clock size={15} className="text-[#D4AF37]" /><span className="font-mono text-xs uppercase tracking-[0.18em] text-[#B8B3AC]">{t.shows.duration}</span> {d.duration}</p>
                   <div>
                     <p className="mb-2 flex items-center gap-2 font-mono text-xs uppercase tracking-[0.18em] text-[#B8B3AC]"><Users size={15} className="text-[#D4AF37]" />{t.shows.lineup}</p>
-                    <div className="flex flex-wrap gap-2">{show.lineup[lang].map((l) => <span key={l} className="rounded-full border border-white/15 px-3 py-1 text-xs">{l}</span>)}</div>
+                    <div className="flex flex-wrap gap-2">{d.lineup.map((l) => <span key={l} className="rounded-full border border-white/15 px-3 py-1 text-xs">{l}</span>)}</div>
                   </div>
                 </div>
                 <button data-testid="video-modal-book-btn" onClick={() => onBook(show)} className="btn-primary justify-center">{t.shows.book}</button>
