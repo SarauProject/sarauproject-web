@@ -1,3 +1,7 @@
 {
+  "installCommand": "yarn install --frozen-lockfile",
+  "buildCommand": "CI=false yarn build",
+  "outputDirectory": "build",
+  "framework": null,
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
